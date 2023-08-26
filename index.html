@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/home.css">
+    </head>
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container p-4">
+              <a class="navbar-brand navl d-flex align-items-center" href="#">
+                <div class="logoimg me-3">
+                    <img src="./imges/logo@2x.png" alt="Photo not found" >
+                </div>
+                <div class="logodetails ">
+                    <h2 class="navbar-brand mb-0 text-white">Weather</h2>
+                    <span class="text-white">tagline goes here </span>
+                </div>  
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars text-white"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Live cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Contact</a>
+                  </li>
+
+
+
+              </div>
+            </div>
+          </nav>
+
+          <section class="section1 ">
+            <div class="search d-flex justify-content-center position-relative  ">
+                <input type="text" class="form-control " placeholder="Find Your location...." id="search">    
+                <button class="btn btn-info position-absolute ">Find</button>
+            </div>
+          </section>
+          <section class="section2 ">
+            <div class="container allweather ">
+                <div class="row g-4">
+                    <div class="col-sm-6 col-md-4 weatherdata p-0" id="col1">
+                    </div>
+                    <div class=" col-sm-6 col-md-4 weatherdata_nextday p-0" id="col2">
+                    </div>
+                    <div class=" col-sm-6 col-md-4 weatherdata thirdday p-0" id="col3">
+                       
+                </div>
+            </div>
+          </section>
+          <footer>
+            <div class="container p-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-sm-12 col-md-8 ">
+                        <div class="subscribe d-flex justify-content-end align-items-center">
+                            <input type="text" class="form-control " placeholder="Enter Your Email To subscribe ....">    
+                            <button class="btn btn-info position-absolute ">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="social d-flex   ps-0 mt-4 ">
+                            <li> <a href="#home" ><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+                            <li> <a href="#home"><i class="fa-brands fa-square-instagram fa-lg"></i></a></li>
+                            <li><a href="#home"><i class="fa-brands fa-google fa-lg"></i></a></li>
+                            <li> <a href="#home"><i class="fa-brands fa-pinterest fa-xl"></i></a></li>
+                          </ul>
+                    </div>
+                    <div class="copyright container me-4 ">
+                        Copyright 2014 Company name. Designed by Themezy. All rights reserved
+                    </div>
+                </div>
+            </div>
+
+          </footer>
+    </main>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

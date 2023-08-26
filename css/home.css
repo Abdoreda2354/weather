@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: #1E202B !important;
+}
+.nav-item a{
+    color: #fff !important;
+    padding: 5px 25px !important;
+    font-size: 14px !important;
+    margin-left: 10px;
+}
+.navl img{
+    width: 100%!important;
+}
+.logoimg{
+    width: 28%!important;
+}
+.logodetails{
+    font-size: 15px;
+}
+.logodetails span{
+    font-size: 11px;
+}
+.nav-item .active{
+    color: #1075B7!important;
+    border: 1px solid #1075B7;
+    border-radius: 20px;
+}
+.nav-item {
+    margin-left: 10px;
+    padding: 10px;
+}
+.nav-item a{
+    transition: 0.5s;
+    border-radius: 20px;
+    border: 1px solid transparent;
+
+}
+.nav-item:hover .nav-link{
+    color: #1075B7!important;
+    border: 1px solid #1075B7;
+    border-radius: 20px;
+    color: #1075B7 !important;
+}
+/* ============================= */
+.section1{
+    background-image: url('../imges/banner.png');
+    min-height: 350px;
+    background-size: 100% 100%;
+
+}
+.section1 input{
+    width: 70%;
+    padding: 15px;
+    border-radius: 40px;
+    background-color: #1E202B;
+    color: #fff !important ;
+    border: 1px solid transparent ;
+}
+.search input:focus{
+    border: 1px solid transparent ;
+    box-shadow: none;
+    background-color: #1E202B;
+}
+.search input::placeholder {
+    color: #ffffff64; 
+  }
+.search{
+transform: translateY(100%);
+}
+.search button{
+    right: 15.5%;
+    top: 10%;
+    border-radius: 40px;
+    padding: 10px 40px;
+    background-color: #009AD8;
+    color: #fff;
+}
+/* ========================================== */
+.section2{
+    background-color: #1E202B;
+    min-height: 300px; 
+}
+.weatherdata{
+    background-color: #323544;
+    padding-bottom: 50px !important;
+
+    
+}
+.section2 .head{
+    background-color: #2D303D;
+    color: #ffffffb8;
+    padding: 10px 5px;
+
+
+
+}
+.content{
+    padding:0 20px;
+}
+.country{
+    color: #ffffffbd;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.num{
+    font-size: 75px;
+    color: #fff;
+    
+}
+.num sup{
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    bottom: -0.5rem;
+}
+.degree .icon{
+    padding: 20px;
+    width: 150px;
+}
+.degree{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.custom{
+color: #009AD8;
+}
+.icons{
+    margin-top: 20px;
+}
+.icons span{
+    margin-right: 30px;
+    color: #ffffffb1;
+}
+.weatherdata_nextday {
+    background-color: #262936;
+    padding-bottom: 50px !important;
+}
+.weatherdata_nextday .head{
+    background-color: #222531;
+
+}
+.weatherdata_nextday .content{
+    background-color: #262936;
+}
+.weatherdata_nextday .degree .num{
+    font-size: 24px;
+}
+.weatherdata_nextday .degree .icon{
+    padding: 20px;
+    width: 100px;
+}
+small{
+    color: #ffffffb6;
+}
+.thirdday .degree .num{
+    font-size: 24px
+}
+.thirdday .degree .icon{
+    padding: 20px;
+    width: 100px;
+}
+.allweather{
+    position: relative;
+    bottom: 132px;
+    border-radius: 10px;
+}
+/* ==================================================== */
+footer{
+    background-color: #262936;
+}
+footer .subscribe input{
+    width: 100%;
+    padding: 15px;
+    background-color: #1E202B;
+    color: #fff !important;
+    border: 1px solid transparent ;
+    border-radius: 40px;
+
+}
+.subscribe input:focus{
+    border: 1px solid transparent ;
+    box-shadow: none;
+    background-color: #1E202B;
+}
+.subscribe input::placeholder {
+    color: #ffffff64; 
+  }
+  .social li{
+    margin-left: 10px;
+    background-color: #1E202B;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social li i {
+color: #009AD8;
+transition: 0.4s;
+}
+.social li:hover{
+    background-color: #009AD8;
+    color: #fff;
+}
+.social li:hover a i{
+    color: #fff;
+}
+.copyright{
+    color: #ffffffa5;
+    margin-left: 37px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.subscribe button{
+    margin-right: 10px;
+    border-radius: 40px;
+    padding: 8px 35px;
+    background-color: #009AD8;
+    color: #fff;
+}
